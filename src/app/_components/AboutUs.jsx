@@ -150,7 +150,7 @@ export default function AboutUs({ page = "" }) {
 
                                       <motion.div
                         variants={itemVariants}
-                        className="relative hidden lg:block h-[700px]"
+                        className="relative hidden lg:block h-[980px]"
                     >
                         {/* Background decorative elements */}
                         <div className="absolute -inset-4 bg-blue-50 rounded-3xl transform rotate-2" />
@@ -165,7 +165,7 @@ export default function AboutUs({ page = "" }) {
                             width={500}
                             height={700}
                             src="/abs.jpg"
-                            className="rounded-3xl shadow-2xl relative z-[5] object-cover w-full h-[700px]"
+                            className="rounded-3xl shadow-2xl relative z-[5] object-cover w-full h-[980px]"
                             priority
                         />
                         
